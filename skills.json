@@ -32,8 +32,8 @@
       "발견 출처(2026-11-04 추가): HN Algolia API, GeekNews RSS+Weekly, upstar.dev #agent-skills, skills.sh, 유튜브(짐코딩·Nate Herk·Tech With Tim·AICodeKing·Real Python), GitHub 주간 Top 30(upstar 주간 랭킹 + Search API 신규 레포)",
       "2026-11-09 주간 갱신: upstar.dev #agent-skills, skills.sh, GitHub Search API(topic:agent-skills created:>2026-11-02), Hacker News Algolia, GeekNews RSS, YouTube(짐코딩·Nate Herk·Tech With Tim·AICodeKing·Real Python·Hyperautomation Labs)"
     ],
-    "verified_date": "2026-11-11",
-    "version": "1.14",
+    "verified_date": "2026-11-13",
+    "version": "1.15",
     "evaluation_note": "별점(5점 만점)은 어떤 출처에서도 확인되지 않아 지어내지 않음. evaluation은 스타 수(레포 전체 수치)·최근 활동·중복 추천·장단점으로 신뢰도 높음/보통/낮음과 총평(추천/보통/주의)을 매김. 25개 핵심 스킬에만 있음.",
     "stars_updated": "2026-11-09",
     "stars_note": "스타 수는 레포 전체 수치이며 개별 스킬 수치가 아님. 2026-11-09 확인분은 GitHub Core API 한도 소진으로 upstar.dev·GitHub Search API·레포 페이지 직접 확인 값을 사용했고, 정확한 API 재확인은 다음 갱신 때 수행한다.",
@@ -11286,7 +11286,7 @@
       "b": "taste-skill",
       "when_a": "폭넓은 디자인 DB를 조회하며 여러 컴포넌트·산업별 규칙을 빠르게 참조하고 싶을 때",
       "when_b": "랜딩·마케팅 페이지처럼 인상'이 중요한 작업에 30~45분·수십만 토큰을 감수하고 실제 브라우저 검사까지 거쳐 다듬고 싶을 때",
-      "note": "함께 설치하면 규칙이 충돌해 제네릭해질 수 있음. 하나만 고를 것."
+      "note": "동일 화면에 두 스킬의 상충하는 디자인 지침을 동시에 적용하지 않는다. 현재 작업에 맞는 주 스킬을 선택한다. 설치 자체나 서로 다른 산출물에 대한 분리 사용을 금지하는 것은 아니다."
     },
     {
       "a": "humanizer",
