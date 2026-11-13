@@ -33,7 +33,7 @@
       "2026-11-09 주간 갱신: upstar.dev #agent-skills, skills.sh, GitHub Search API(topic:agent-skills created:>2026-11-02), Hacker News Algolia, GeekNews RSS, YouTube(짐코딩·Nate Herk·Tech With Tim·AICodeKing·Real Python·Hyperautomation Labs)"
     ],
     "verified_date": "2026-11-13",
-    "version": "1.15",
+    "version": "1.16",
     "evaluation_note": "별점(5점 만점)은 어떤 출처에서도 확인되지 않아 지어내지 않음. evaluation은 스타 수(레포 전체 수치)·최근 활동·중복 추천·장단점으로 신뢰도 높음/보통/낮음과 총평(추천/보통/주의)을 매김. 25개 핵심 스킬에만 있음.",
     "stars_updated": "2026-11-09",
     "stars_note": "스타 수는 레포 전체 수치이며 개별 스킬 수치가 아님. 2026-11-09 확인분은 GitHub Core API 한도 소진으로 upstar.dev·GitHub Search API·레포 페이지 직접 확인 값을 사용했고, 정확한 API 재확인은 다음 갱신 때 수행한다.",
@@ -2335,7 +2335,7 @@
       "id": "postgres-impl-zero-downtime-migrations",
       "name": "postgres-impl-zero-downtime-migrations",
       "category": "database",
-      "purpose_ko": "무중단 마이그레이션 실행법: CONCURRENTLY 인덱스, NOT VALID + VALIDATE, lock_timeout, 청크 백필, expand-contract",
+      "purpose_ko": "무중단 마이그레이션 실행법: CONCURRENTLY 인덱스, NOT VALID + VALIDATE, lock_timeout, 청크 백필, expand-contract. 주의: 원본이 now()를 volatile 기본값으로 분류하나 PostgreSQL 공식 문서 기준 now()/current_timestamp 계열은 STABLE — 해당 부분은 그대로 적용하지 말 것. 원본이 Claude Code용으로 명시(Codex 동작 미검증). SKILL.md 단독 복사가 아니라 references/ 포함 패키지 구조 그대로 복사해야 함.",
       "when_to_use": "컬럼 타입 변경을 무중단으로 바꿀 때",
       "example": "\"postgres-impl-zero-downtime-migrations으로 이 컬럼 타입 변경을 무중단으로 바꿔줘\"",
       "keywords": [
@@ -2346,16 +2346,15 @@
       ],
       "source_repo": "impertio-studio/postgresql-claude-skill-package",
       "skill_md_url": "https://github.com/impertio-studio/postgresql-claude-skill-package/blob/HEAD/skills/source/postgres-impl/postgres-impl-zero-downtime-migrations/SKILL.md",
-      "install": "레포의 해당 SKILL.md를 skills 폴더에 복사",
-      "license": "미확인",
+      "install": "SKILL.md 단독 복사가 아니라 references/methods.md·examples.md·anti-patterns.md 포함 패키지 구조 그대로 복사",
+      "license": "MIT",
       "compatible": [
-        "Claude Code",
-        "Codex"
+        "Claude Code"
       ],
       "requires": [
         "PostgreSQL 15/16/17"
       ],
-      "priority": "recommended",
+      "priority": "optional",
       "stars": 1,
       "citations": 0,
       "citation_sources": []
