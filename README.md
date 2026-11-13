@@ -6,7 +6,7 @@ Codex·Claude Code 사용자가 API 요청으로 스킬 목록을 받아, AI가 
 
 | 파일 | 내용 | URL |
 |---|---|---|
-| `skills.json` | 스킬 전체 (361개, v1.14) | https://raw.githubusercontent.com/galaga0128/skill-repo/main/skills.json |
+| `skills.json` | 스킬 전체 (361개, v1.16) | https://raw.githubusercontent.com/galaga0128/skill-repo/main/skills.json |
 | `skills-shared.json` | 회사 공용 (358개) | https://raw.githubusercontent.com/galaga0128/skill-repo/main/skills-shared.json |
 | `references.json` | 참조 자료 목록 | https://raw.githubusercontent.com/galaga0128/skill-repo/main/references.json |
 
