@@ -1,1 +1,96 @@
-{"meta":{"note":"스킬이 아니지만 스킬을 고르거나 만들 때 참조할 만한 자료 모음. 스킬 DB(skills.json)의 개수에는 포함하지 않음. 스킬과 달리 SKILL.md·설치 절차가 없고, '어디서 API/자료를 찾을지'를 알려주는 참조용 목록.","verified_date":"2026-11-12","version":"1.0"},"references":[{"added_date":"2026-11-12","description_ko":"무료 API 목록 모음. 카테고리별(날씨·금융·지도·번역 등)로 API명·설명·인증 방식·HTTPS 지원·CORS 여부를 표로 정리. 스킬을 만들 때 '어떤 API를 쓸지' 고르는 출발점으로 참조.","id":"public-apis","license":"MIT","name":"public-apis","note":"레포 전체 스타 수. API 자체는 각 제공자의 이용 약관을 따름.","stars":498263,"tags":["API","무료 API","참조 목록"],"type":"api-list","url":"https://github.com/public-apis/public-apis","verified_date":"2026-11-12"}]}
+{
+  "meta": {
+    "note": "스킬이 아니지만 스킬을 고르거나 만들 때 참조할 만한 자료 모음. 스킬 DB(skills.json)의 개수에는 포함하지 않음. 스킬과 달리 SKILL.md·설치 절차가 없고, '어디서 API/자료를 찾을지'를 알려주는 참조용 목록.",
+    "verified_date": "2026-11-16",
+    "version": "1.1"
+  },
+  "references": [
+    {
+      "added_date": "2026-11-12",
+      "description_ko": "무료 API 목록 모음. 카테고리별(날씨·금융·지도·번역 등)로 API명·설명·인증 방식·HTTPS 지원·CORS 여부를 표로 정리. 스킬을 만들 때 '어떤 API를 쓸지' 고르는 출발점으로 참조.",
+      "id": "public-apis",
+      "license": "MIT",
+      "name": "public-apis",
+      "note": "레포 전체 스타 수. API 자체는 각 제공자의 이용 약관을 따름.",
+      "stars": 498263,
+      "tags": [
+        "API",
+        "무료 API",
+        "참조 목록"
+      ],
+      "type": "api-list",
+      "url": "https://github.com/public-apis/public-apis",
+      "verified_date": "2026-11-12"
+    },
+    {
+      "added_date": "2026-11-16",
+      "description_ko": "무료 공개 API 목록. 카테고리별 API명·설명·인증 방식·HTTPS·CORS를 표로 정리하고, 검색 가능한 웹사이트와 무료 JSON API를 함께 제공한다.",
+      "id": "public-api-lists",
+      "license": "MIT",
+      "name": "public-api-lists",
+      "note": "public-apis와 주제가 겹치나, JSON API와 검색 사이트가 차별점이라 프로그램에서 API 목록을 직접 받아 쓰는 스킬 제작 시 유용함. 최종 푸시 2026-09-14, 아카이브 아님.",
+      "stars": 16394,
+      "tags": [
+        "API",
+        "무료 API",
+        "참조 목록",
+        "JSON API"
+      ],
+      "type": "api-list",
+      "url": "https://github.com/public-api-lists/public-api-lists",
+      "verified_date": "2026-11-16"
+    },
+    {
+      "added_date": "2026-11-16",
+      "description_ko": "공개 GraphQL API만 모은 목록. REST 중심인 public-apis와 겹치지 않는 영역으로, GraphQL 기반 스킬을 만들 때 API를 고르는 출발점이 된다.",
+      "id": "graphql-apis",
+      "license": "MIT",
+      "name": "graphql-apis",
+      "note": "apis.guru 계열의 GraphQL 전용 목록이라 public-apis와 상호보완적임. apis.guru 본 사이트는 라이선스를 직접 확인하지 못해 후보에서 제외하고 이 레포만 후보로 함.",
+      "stars": 4703,
+      "tags": [
+        "API",
+        "GraphQL",
+        "무료 API",
+        "참조 목록"
+      ],
+      "type": "api-list",
+      "url": "https://github.com/APIs-guru/graphql-apis",
+      "verified_date": "2026-11-16"
+    },
+    {
+      "added_date": "2026-11-16",
+      "description_ko": "세계 최대 규모의 오픈소스 프롬프트 라이브러리. 역할별 프롬프트 수천 개를 CSV·마크다운으로 내려받을 수 있어, 스킬의 지침 문구를 만들 때 참고할 수 있다.",
+      "id": "prompts-chat",
+      "license": "MIT(소스 코드) / CC0 1.0(프롬프트 데이터)",
+      "name": "prompts.chat (구 Awesome ChatGPT Prompts)",
+      "note": "레포가 프롬프트 목록을 넘어 웹앱·Claude 플러그인·MCP 서버까지 갖춘 프로젝트로 커졌으나, 참조 가치는 prompts.csv / PROMPTS.md 라이브러리 자체에 있음. 프롬프트 데이터는 CC0이라 재사용이 자유로움. README의 '143k+' 표기는 구버전이며 2026-11-16 확인 스타 수는 177,559.",
+      "stars": 177559,
+      "tags": [
+        "프롬프트",
+        "프롬프트 엔지니어링",
+        "참조 목록"
+      ],
+      "type": "prompt-collection",
+      "url": "https://github.com/f/prompts.chat",
+      "verified_date": "2026-11-16"
+    },
+    {
+      "added_date": "2026-11-16",
+      "description_ko": "MCP 서버를 카테고리별(데이터베이스·개발 도구·브라우저·클라우드 등)로 정리한 선별 목록. 모든 항목을 심사하고 링크를 주기적으로 검사하며, JSON API도 제공한다.",
+      "id": "awesome-mcp-servers-mcphq",
+      "license": "MIT",
+      "name": "awesome-mcp-servers",
+      "note": "스타 수는 작지만(2026-05-30 생성, 신생) 최종 푸시가 2026-11-14로 활발하고 선별 기준·링크 검사가 명시돼 있음. MCP 연동 스킬을 만들 때 서버를 찾는 출발점으로 적합. 단, MCP 서버 자체는 참조 자료가 아니라 스킬/제외 쪽 분류 대상이므로, 이 항목은 '서버 목록'으로서만 등록할 것.",
+      "stars": 118,
+      "tags": [
+        "MCP",
+        "awesome-list",
+        "참조 목록"
+      ],
+      "type": "awesome-list",
+      "url": "https://github.com/mcpHQ/awesome-mcp-servers",
+      "verified_date": "2026-11-16"
+    }
+  ]
+}
