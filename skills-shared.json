@@ -34,7 +34,7 @@
    "2026-11-16 주간 갱신: GoogleChrome/modern-web-guidance, addyosmani/agent-skills, browser-use/browser-use, aws/agent-toolkit-for-aws, janestreet/agent_skills, naver/design-to-ui, MengTo/Skills 신규(game-dev-character-model), anthropics/claude-plugins-official 신규(claude-for-manufacturing), anthropics/knowledge-work-plugins 기존 미등재(invoice-chase), gencraft-labs/skills, Marlon-Chaviano/first-commit, shadcn-ui/ui, upstar.dev #agent-skills, skills.sh, GitHub Search API(topic:agent-skills created:>2026-11-09), Hacker News Algolia, GeekNews RSS(11-09~15 구간 미확인), YouTube(짐코딩·Nate Herk·Tech With Tim·AICodeKing·Real Python)"
   ],
   "verified_date": "2026-11-20",
-  "version": "1.19-shared",
+  "version": "1.20-shared",
   "evaluation_note": "별점(5점 만점)은 어떤 출처에서도 확인되지 않아 지어내지 않음. evaluation은 스타 수(레포 전체 수치)·최근 활동·중복 추천·장단점으로 신뢰도 높음/보통/낮음과 총평(추천/보통/주의)을 매김. 25개 핵심 스킬에만 있음.",
   "stars_updated": "2026-11-16",
   "stars_note": "스타 수는 레포 전체 수치이며 개별 스킬 수치가 아님. 2026-11-16 GitHub API·레포 페이지 직접 확인.",
@@ -12299,6 +12299,200 @@
    ],
    "priority": "optional",
    "stars": 8472,
+   "citations": 0,
+   "citation_sources": []
+  },
+  {
+   "id": "logo-design",
+   "name": "logo-design",
+   "category": "ui-design",
+   "purpose_ko": "브리프부터 납품 파일까지 로고·브랜드 마크 디자인을 안내하는 전문 스킬 — 마크 유형 선택(워드마크·모노그램·픽토리얼·추상·엠블럼·마스코트 등), 기하학 SVG 로고 제작, 광학 보정, 색상·타이포, 16px·단색·반전 테스트, 클라이언트 프레젠테이션, 변형본과 브랜드 가이드라인까지 다룬다. 실존 SVG 로고 1,400개 이상의 분류 라이브러리와 SVG 감사·테스트 시트·수출 변형 생성 스크립트를 포함한다. 패키지 구조라 폴더째 가져와야 한다. 검증 게이트 전 항목 PASS. SkillSpector 100점이 나왔으나 HIGH 3건 전수 확인 결과 전부 과탐(디자인 원칙 문구와 헤드리스 Chrome 렌더링 플래그를 오인) — 실제 리스크 0건.",
+   "when_to_use": "로고·워드마크·앱 아이콘·파비콘을 만들거나 리디자인·비평할 때, 브랜드 아이덴티티 체계를 잡을 때 (디자인팀).",
+   "example": "\"새 카페 로고 시안 잡아줘\" → 브리프 정리 → 마크 유형·컨셉 제안 → SVG 제작 → 16px·단색 테스트 → 프레젠테이션 보드",
+   "keywords": [
+    "로고",
+    "브랜딩",
+    "아이덴티티",
+    "SVG",
+    "워드마크",
+    "디자인팀"
+   ],
+   "source_repo": "kaankiziltug/logo-design-skill",
+   "skill_md_url": "https://github.com/kaankiziltug/logo-design-skill/blob/main/skills/logo-design/SKILL.md",
+   "install": "skills/logo-design 폴더를 references·scripts·templates 포함 패키지째 복사. skills CLI로는 npx skills add https://github.com/kaankiziltug/logo-design-skill --skill logo-design.",
+   "license": "MIT",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [
+    "references·scripts·templates 포함 패키지 구조 그대로 복사",
+    "스크립트용 Python 환경 (SVG 감사·렌더링에 헤드리스 Chrome 사용)"
+   ],
+   "priority": "recommended",
+   "stars": 7373,
+   "citations": 0,
+   "citation_sources": []
+  },
+  {
+   "id": "after-effects",
+   "name": "after-effects",
+   "category": "video-audio",
+   "purpose_ko": "Adobe After Effects를 ExtendScript(JSX)로 자동화하는 스킬 — 레이어·키프레임·익스프레션·이펙트·컴포지션·렌더링을 스크립트 생성·실행으로 처리한다. macOS 전용(osascript로 실행)이고 AE 환경설정에서 스크립트의 파일 쓰기·네트워크 접근 허용이 필요하다. rules/·scripts/를 포함한 패키지이며, AE 캐시를 지우는 purge 같은 유지보수 스크립트도 들어 있어 실행 전 스크립트 확인이 필요하다. 검증 게이트 전 항목 PASS. SkillSpector 100점이었으나 HIGH 전수 확인 결과 참조 파싱 한계와 정상 기능(캐시 정리) 오인으로 실제 리스크 0건.",
+   "when_to_use": "macOS에서 AE 프로젝트를 스크립트로 만들거나 반복 작업을 자동화할 때 (영상팀).",
+   "example": "\"이 컴포지션 자막 레이어 전부 스타일 통일해줘\" → JSX 생성 → runner.sh로 AE에서 실행 → 결과 확인",
+   "keywords": [
+    "After Effects",
+    "애프터이펙트",
+    "ExtendScript",
+    "영상 자동화",
+    "macOS",
+    "영상팀"
+   ],
+   "source_repo": "aedev-tools/adobe-agent-skills",
+   "skill_md_url": "https://github.com/aedev-tools/adobe-agent-skills/blob/main/skills/after-effects/SKILL.md",
+   "install": "skills/after-effects 폴더를 rules·scripts 포함 패키지째 복사. skills CLI로는 npx skills add https://github.com/aedev-tools/adobe-agent-skills --skill after-effects.",
+   "license": "Apache-2.0",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [
+    "macOS + Adobe After Effects 설치",
+    "AE 환경설정: 스크립트 파일 쓰기·네트워크 접근 허용",
+    "rules·scripts 포함 패키지 구조 유지"
+   ],
+   "priority": "optional",
+   "stars": 118,
+   "citations": 0,
+   "citation_sources": []
+  },
+  {
+   "id": "aftereffects-cli",
+   "name": "aftereffects-cli",
+   "category": "video-audio",
+   "purpose_ko": "After Effects를 ae-cli 명령 단위로 편집·점검하는 스킬 — PNG 스냅샷, 컴프-레이어 조립, 푸티지 컷, 오디오 변경, 레이어 텍스트 스타일, 시각 경계 정렬·배포를 다룬다. 기존 장면의 정밀 수정·시각 검증·디버깅에 강하다. 스킬 본문은 일본어이고, 같은 레포의 ae-cli 도구 설치가 전제다. 검증 게이트 전 항목 PASS, SkillSpector 0점.",
+   "when_to_use": "AE 기존 프로젝트를 명령 단위로 정밀하게 고치거나 스냅샷으로 검증할 때 (영상팀).",
+   "example": "\"이 컴프 스냅샷 찍어서 레이어 정렬 상태 확인해줘\" → ae-cli로 스냅샷 촬영과 경계 정렬 실행",
+   "keywords": [
+    "After Effects",
+    "ae-cli",
+    "영상 편집",
+    "스냅샷 검증",
+    "일본어",
+    "영상팀"
+   ],
+   "source_repo": "yumehiko/ae-agent-skills",
+   "skill_md_url": "https://github.com/yumehiko/ae-agent-skills/blob/main/skills/aftereffects-cli/SKILL.md",
+   "install": "yumehiko/ae-agent-skills 레포의 ae-cli 도구를 설치한 뒤 skills/aftereffects-cli 등록. skills CLI로는 npx skills add https://github.com/yumehiko/ae-agent-skills --skill aftereffects-cli.",
+   "license": "MIT",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [
+    "ae-cli 도구 (같은 레포) 설치",
+    "Adobe After Effects",
+    "스킬 본문이 일본어임"
+   ],
+   "priority": "optional",
+   "stars": 39,
+   "citations": 0,
+   "citation_sources": []
+  },
+  {
+   "id": "aftereffects-declarative",
+   "name": "aftereffects-declarative",
+   "category": "video-audio",
+   "purpose_ko": "After Effects 컴포지션을 선언형 JSON(ae-cli apply-scene)으로 구축하는 워크플로 스킬 — 컴포지션·에셋·레이어·푸티지 컷·오디오·텍스트 스타일·레이아웃·애니메이션·익스프레션을 JSON으로 기술해 반복 가능하게 적용한다. 스킬 본문은 일본어이고 aftereffects-cli와 짝으로 쓴다. 검증 게이트 전 항목 PASS, SkillSpector 0점.",
+   "when_to_use": "AE 장면을 처음부터 반복 가능하게 구축할 때, 템플릿화된 모션 작업에서 (영상팀).",
+   "example": "\"이 JSON 장면 정의로 컴프 만들어줘\" → apply-scene으로 컴포지션·레이어·애니메이션 일괄 생성",
+   "keywords": [
+    "After Effects",
+    "선언형",
+    "JSON",
+    "모션 템플릿",
+    "일본어",
+    "영상팀"
+   ],
+   "source_repo": "yumehiko/ae-agent-skills",
+   "skill_md_url": "https://github.com/yumehiko/ae-agent-skills/blob/main/skills/aftereffects-declarative/SKILL.md",
+   "install": "ae-cli 도구 설치 후 skills/aftereffects-declarative 등록. skills CLI로는 npx skills add https://github.com/yumehiko/ae-agent-skills --skill aftereffects-declarative.",
+   "license": "MIT",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [
+    "ae-cli 도구 (같은 레포) 설치",
+    "Adobe After Effects",
+    "스킬 본문이 일본어임"
+   ],
+   "priority": "optional",
+   "stars": 39,
+   "citations": 0,
+   "citation_sources": []
+  },
+  {
+   "id": "adobe-products",
+   "name": "adobe-products",
+   "category": "ui-design",
+   "purpose_ko": "어도비 제품 전반(Acrobat·Photoshop·Illustrator·InDesign·InCopy·Premiere Pro·After Effects·Audition·Media Encoder·Firefly)의 공식 문서·워크플로·스크립팅·플러그인·SDK·서비스 API를 참조하는 범용 스킬. CEP·ExtendScript·ScriptUI 공통 내용을 포함하고 references 12개 패키지 구조다. 규모는 작지만(★8) 어도비 작업의 출발점 참조용으로 쓸 만하다. 검증 게이트 '주의 후 후보 가능'(이름 표기 차이만), SkillSpector 0점.",
+   "when_to_use": "어도비 제품의 스크립팅·SDK·API 사용법을 확인할 때 (디자인·영상팀 공통).",
+   "example": "\"Photoshop ExtendScript로 레이어 일괄 이름 바꾸는 법 알려줘\" → 관련 문서와 스크립팅 패턴 안내",
+   "keywords": [
+    "Adobe",
+    "어도비",
+    "Photoshop",
+    "Illustrator",
+    "ExtendScript",
+    "SDK",
+    "디자인팀"
+   ],
+   "source_repo": "LevyBytes/AI-SKILL-adobe-products",
+   "skill_md_url": "https://github.com/LevyBytes/AI-SKILL-adobe-products/blob/main/SKILL.md",
+   "install": "레포 루트의 SKILL.md와 references를 패키지째 복사. skills CLI로는 npx skills add https://github.com/LevyBytes/AI-SKILL-adobe-products --skill adobe-products.",
+   "license": "Apache-2.0",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [
+    "references 포함 패키지 구조 그대로 복사"
+   ],
+   "priority": "optional",
+   "stars": 8,
+   "citations": 0,
+   "citation_sources": []
+  },
+  {
+   "id": "adobe-plugin-development",
+   "name": "adobe-plugin-development",
+   "category": "ui-design",
+   "purpose_ko": "Adobe Photoshop UXP 플러그인과 Lightroom Classic 플러그인 개발 전문 스킬(30KB 단일 문서) — 매니페스트 구성, Spectrum UI 위젯, batchPlay 액션 디스크립터, executeAsModal, 픽셀 접근, UXP 파일 I/O와 설정 저장, LrView 바인딩·현상 슬라이더 관찰·내보내기 서비스까지 다룬다. 디자이너보다는 플러그인을 만드는 개발자용이다. 검증 게이트 '주의 후 후보 가능'(이름 표기 차이만). SkillSpector 76점이었으나 HIGH 전수 확인 결과 전부 과탐(보안 안내 문구 오인·참조 파싱 한계) — 실제 리스크 0건.",
+   "when_to_use": "Photoshop UXP나 Lightroom Classic 플러그인을 만들거나 디버깅할 때.",
+   "example": "\"Photoshop UXP 패널에서 batchPlay로 레이어 복제하려면?\" → 모달 실행 패턴과 디스크립터 예시 안내",
+   "keywords": [
+    "Photoshop",
+    "UXP",
+    "플러그인 개발",
+    "Lightroom",
+    "어도비",
+    "개발"
+   ],
+   "source_repo": "kevinkiklee/adobe-plugin-skills",
+   "skill_md_url": "https://github.com/kevinkiklee/adobe-plugin-skills/blob/main/SKILL.md",
+   "install": "SKILL.md 단일 파일 복사 (ps-uxp-sdk.md·lrc-sdk.md 참조 문서를 함께 두면 좋음). skills CLI로는 npx skills add https://github.com/kevinkiklee/adobe-plugin-skills --skill adobe-plugin-development.",
+   "license": "MIT",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [
+    "Photoshop UXP 또는 Lightroom Classic 개발 환경"
+   ],
+   "priority": "optional",
+   "stars": 17,
    "citations": 0,
    "citation_sources": []
   }

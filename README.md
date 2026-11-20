@@ -6,8 +6,8 @@ Codex·Claude Code 사용자가 API 요청으로 스킬 목록을 받아, AI가 
 
 | 파일 | 내용 | URL |
 |---|---|---|
-| `skills.json` | 스킬 전체 (393개, v1.19) | https://raw.githubusercontent.com/galaga0128/skill-repo/main/skills.json |
-| `skills-shared.json` | 회사 공용 (390개) | https://raw.githubusercontent.com/galaga0128/skill-repo/main/skills-shared.json |
+| `skills.json` | 스킬 전체 (399개, v1.20) | https://raw.githubusercontent.com/galaga0128/skill-repo/main/skills.json |
+| `skills-shared.json` | 회사 공용 (396개) | https://raw.githubusercontent.com/galaga0128/skill-repo/main/skills-shared.json |
 | `references.json` | 참조 자료 목록 | https://raw.githubusercontent.com/galaga0128/skill-repo/main/references.json |
 
 GET으로 받으면 JSON이 그대로 내려옵니다. 검색 파라미터는 없습니다. 전체를 받은 뒤 받는 쪽에서 필터링하세요.
