@@ -34,7 +34,7 @@
    "2026-11-16 주간 갱신: GoogleChrome/modern-web-guidance, addyosmani/agent-skills, browser-use/browser-use, aws/agent-toolkit-for-aws, janestreet/agent_skills, naver/design-to-ui, MengTo/Skills 신규(game-dev-character-model), anthropics/claude-plugins-official 신규(claude-for-manufacturing), anthropics/knowledge-work-plugins 기존 미등재(invoice-chase), gencraft-labs/skills, Marlon-Chaviano/first-commit, shadcn-ui/ui, upstar.dev #agent-skills, skills.sh, GitHub Search API(topic:agent-skills created:>2026-11-09), Hacker News Algolia, GeekNews RSS(11-09~15 구간 미확인), YouTube(짐코딩·Nate Herk·Tech With Tim·AICodeKing·Real Python)"
   ],
   "verified_date": "2026-11-20",
-  "version": "1.18-shared",
+  "version": "1.19-shared",
   "evaluation_note": "별점(5점 만점)은 어떤 출처에서도 확인되지 않아 지어내지 않음. evaluation은 스타 수(레포 전체 수치)·최근 활동·중복 추천·장단점으로 신뢰도 높음/보통/낮음과 총평(추천/보통/주의)을 매김. 25개 핵심 스킬에만 있음.",
   "stars_updated": "2026-11-16",
   "stars_note": "스타 수는 레포 전체 수치이며 개별 스킬 수치가 아님. 2026-11-16 GitHub API·레포 페이지 직접 확인.",
@@ -12197,6 +12197,110 @@
    "citation_sources": [
     "skills.rest"
    ]
+  },
+  {
+   "id": "nts-tax-delinquency",
+   "name": "nts-tax-delinquency",
+   "category": "business",
+   "purpose_ko": "국세청 고액·상습체납자 명단공개(국세기본법 제85조의5)를 nts.go.kr 공개 검색으로 직접 조회하는 한국 전용 스킬. 법인명·상호로 법인/개인 명단을 대조해 공개년도·대표자·총 체납액·세목·체납요지를 나열한다. 인증키 불필요, 프록시 없이 사용자 머신에서 직접 호출한다(HTML 스크래핑이라 페이지 구조가 바뀌면 unavailable로 강등). 명단에 사업자등록번호가 없어 동명 상호 여부는 사용자가 판단해야 한다. k-skill 개별 스킬 — SKILL.md는 스텁이고 실제 지침은 CLI가 받아온다. 검증 게이트 '주의 후 후보 가능', SkillSpector 38점(HIGH 2건은 스텁 구조 기인).",
+   "when_to_use": "거래처·의뢰인이 국세 체납 명단공개에 올라 있는지 확인할 때 (경영/회계 실사).",
+   "example": "\"이 회사 고액·상습체납자 명단에 있어?\" → 법인명으로 명단을 대조해 공개 사실과 출처를 나열",
+   "keywords": [
+    "체납",
+    "국세청",
+    "명단공개",
+    "고액상습체납자",
+    "실사",
+    "한국",
+    "경영",
+    "회계"
+   ],
+   "source_repo": "NomaDamas/k-skill",
+   "skill_md_url": "https://github.com/NomaDamas/k-skill/blob/main/nts-tax-delinquency/SKILL.md",
+   "install": "npx --yes skills add NomaDamas/k-skill --skill nts-tax-delinquency -g. SKILL.md만 복사하면 동작하지 않음(스텁 — CLI가 실제 지침을 받아오는 구조).",
+   "license": "MIT",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [
+    "Node.js 18+",
+    "npx (@nomadamas/k-skill CLI)",
+    "python3 (표준 라이브러리만 사용, 추가 의존성 없음)"
+   ],
+   "priority": "optional",
+   "stars": 8472,
+   "citations": 0,
+   "citation_sources": []
+  },
+  {
+   "id": "biz-health-check",
+   "name": "biz-health-check",
+   "category": "business",
+   "purpose_ko": "사업자등록번호 하나로 거래처 실사 리포트를 만드는 한국 전용 복합 스킬 — 국세청 사업자 상태·국민연금 가입 현황·국세 체납 명단·금융위 법인개요·조달청 부정당제재·지방행정 인허가 영업상태 6종을 교차 조회해 점수·등급·판정 없이 사실만 병렬한다. 경로가 소스별로 다름: 국세청 상태·국민연금·금융위·부정당제재는 저자 공개 프록시(k-skill-proxy) 경유, 체납 명단·인허가는 무인증 직접 조회. 단품 스킬(nts-business-registration·nts-tax-delinquency 등)의 helper를 재사용하는 구조다. 본인 실사 목적으로만 쓰고 대량·정기 수집은 목적·근거 확인 후에만. k-skill 스텁 구조, 검증 게이트 '주의 후 후보 가능', SkillSpector 38점(HIGH 2건은 스텁 구조 기인).",
+   "when_to_use": "새 거래처와 계약하기 전에 사업자 상태·체납·제재 이력을 한 번에 확인할 때 (경영/회계 실사).",
+   "example": "\"사업자번호로 이 거래처 실사 리포트 만들어줘\" → 6개 공공 소스 조회 결과를 사실 위주로 한 장에 병렬",
+   "keywords": [
+    "사업자 실사",
+    "거래처 확인",
+    "부정당제재",
+    "국민연금",
+    "법인개요",
+    "한국",
+    "경영",
+    "회계"
+   ],
+   "source_repo": "NomaDamas/k-skill",
+   "skill_md_url": "https://github.com/NomaDamas/k-skill/blob/main/biz-health-check/SKILL.md",
+   "install": "npx --yes skills add NomaDamas/k-skill --skill biz-health-check -g. SKILL.md만 복사하면 동작하지 않음(스텁). 단품 스킬 helper들을 재사용하는 구조.",
+   "license": "MIT",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [
+    "Node.js 18+",
+    "npx (@nomadamas/k-skill CLI)",
+    "6개 소스 중 4개는 k-skill-proxy 경유: 조회 정보가 저자 공개 프록시에 보임"
+   ],
+   "priority": "optional",
+   "stars": 8472,
+   "citations": 0,
+   "citation_sources": []
+  },
+  {
+   "id": "korean-law-search",
+   "name": "korean-law-search",
+   "category": "legal",
+   "purpose_ko": "한국 법령·조문·판례·유권해석·자치법규를 검색하고 신·구조문대비표를 만드는 한국 전용 스킬. 법제처 국가법령정보센터 공식 Open API 기반이며 전량 저자 공개 프록시(k-skill-proxy) 경유 — 법제처 API 키(LAW_OC)는 프록시 서버에서 주입돼 사용자 키가 필요 없지만 검색어가 프록시에 보인다. 대비표는 한글 HWPX 저장 옵션 포함(scripts/amendment_table.js). 2026-11-06 갭 대조에서 비어 있던 '한국 법령 검색'을 메우는 항목. k-skill 스텁 구조, 검증 게이트 '주의 후 후보 가능', SkillSpector 38점(HIGH 2건은 스텁 구조 기인). 법률 자문이 아니므로 중요한 판단은 전문가 확인이 필요하다.",
+   "when_to_use": "한국 법령·조문을 찾거나 판례·유권해석을 검색할 때, 개정안 신·구조문대비표가 필요할 때.",
+   "example": "\"개인정보보호법 시행령 조문 확인해줘\" / \"건축법 개정안으로 신구조문대비표 만들어줘\"",
+   "keywords": [
+    "법령 검색",
+    "판례",
+    "유권해석",
+    "신구조문대비표",
+    "법제처",
+    "한국",
+    "법률"
+   ],
+   "source_repo": "NomaDamas/k-skill",
+   "skill_md_url": "https://github.com/NomaDamas/k-skill/blob/main/korean-law-search/SKILL.md",
+   "install": "npx --yes skills add NomaDamas/k-skill --skill korean-law-search -g. SKILL.md만 복사하면 동작하지 않음(스텁 — CLI가 실제 지침을 받아오는 구조).",
+   "license": "MIT",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [
+    "Node.js 18+",
+    "npx (@nomadamas/k-skill CLI)",
+    "k-skill-proxy 경유: 검색어가 저자 공개 프록시에 보임 (법제처 키는 서버 측 주입)"
+   ],
+   "priority": "optional",
+   "stars": 8472,
+   "citations": 0,
+   "citation_sources": []
   }
  ],
  "comparisons": [
