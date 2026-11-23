@@ -1,6 +1,6 @@
 {
  "meta": {
-  "notes": "2026-11-23 주간 갱신(v1.21): 신규 6개 — rust-anything(upstar 주간 1위, ★7,993, recommended)·tarot(중국어 전용, life 카테고리 신설)·antialgorithm·inference-optimisation·brief2mp4·unslop-ui. 발견 출처 15건 스캔 전부 완료(실제 리스크 0건) — v1.21에는 그중 6건만 등록하고 나머지 9건(ffmpeg-skill·material-design-3-ui·fable-cheap·skill-finder·stick-scene·컬렉션 4건)은 원문 검토 완료 상태로 다음 주 등록 검토(주의 문구 7건). 나머지 후보 26건(주요 소스 21건 + 부모 검증 5건)은 클론·스캔 과정의 실행 위험(execution-risk) 보안 검사 차단으로 스캔 미완료 — 사용자 확인 후 다음 주에 재개. ffmpeg-skill은 스캔 커버리지 0.0%라 미검사 파일 보장 없음. 미결: swarms 라이선스 여전히 없음(제외 유지, ★250). k-skill 3종 클론 방식 재스캔 완료 — 11-20과 점수·발견 완전 동일(45/38/45, 실제 리스크 0). GeekNews Weekly 384호 확인(스킬 후보 0건), 385호는 다음 주. upstar 지난주 1위 레포는 식별 불가로 종결. System-Prompt-Library는 라이선스 미명시로 참조 자료 등록 불가. react-native-guidelines 항목 이름·경로 정정(vercel-react-native-skills). k-skill 컬렉션 135개→134개(SKILL.md 실측)·★8,490. 2026-11-20 디자인팀·어도비 계열 6개 추가(v1.20, 사용자 선택 — MCP 서버 5개는 제외): logo-design(★7,373, recommended)·after-effects(aedev)·aftereffects-cli·aftereffects-declarative·adobe-products·adobe-plugin-development. 검증 게이트 통과(4개 전 항목 PASS, 2개 이름 표기 WARN만). SkillSpector: logo-design 100·after-effects 100·adobe-plugin-development 76은 HIGH 전수 원문 확인 결과 전부 과탐으로 실제 리스크 0, 나머지 3개 0점. after-effects(aedev)는 macOS 전용. 2026-11-20 k-skill 개별 스킬 3개 추가(v1.19, 사용자 승인): nts-tax-delinquency·biz-health-check(business)·korean-law-search(legal — 한국 법령 검색 갭 해소). 셋 다 검증 게이트 주의 후 후보 가능·SkillSpector 38점(HIGH 2건 스텁 기인, 실제 리스크 0). 스캔은 클론 실패로 API+raw 27파일 기준 — 월요일 갱신 때 클론 방식 재확인 예정. 2026-11-20 skills.rest 사전 테스트로 검증한 3개 추가(v1.18): prowler·prowler-compliance(prowler-cloud/prowler, Apache-2.0, 검증 전 항목 PASS·SkillSpector 0점 — 단 skills.rest 설명과 달리 클라우드 스캔 사용법이 아닌 Prowler 개발용), nts-business-registration(NomaDamas/k-skill 개별 스킬 첫 등재, MIT, 스텁+프록시 주의, SkillSpector 38점 HIGH 2건은 스텁 구조 기인). naver-shopping-search는 레포에 폴더가 없어 제외. 2026-11-16 주간 갱신(v1.17): 신규 26개. mcpcheck 경유 19개 스타 수 GitHub API로 재확인 완료(xcstrings-localize 2·asc-localize-metadata 1138 채움, srt-translate 0이 실제 값). azure 3종 GitHub Copilot 호환 확정(미확정 문구 제거). swarms 라이선스 여전히 없음(제외 유지). ainiee-translate·translate-docs는 AGPL-3.0. GeekNews 11-09~15 구간은 RSS·Weekly 커버 불가로 미확인. upstar 주간 1위 레포 이름 추출 누락(미확인). GitHub Search topic:agent-skills 신규 2,004건 중 GitHub-Copilot-app 스팸 클러스터 22개 이상 오염.",
+  "notes": "2026-11-24 k-skill 잔여 3개 추가(v1.22, 사용자 선택 \"2건 + localdata\"): korean-jangbu-for(업스트림 Apache-2.0)·popbill·localdata-business-status. 게이트 전부 주의 후 후보 가능(스텁). SkillSpector: jangbu 56·popbill 65·localdata 38, HIGH 전수 확인 결과 전부 과탐으로 실제 리스크 0. 2026-11-23 주간 갱신(v1.21): 신규 6개 — rust-anything(upstar 주간 1위, ★7,993, recommended)·tarot(중국어 전용, life 카테고리 신설)·antialgorithm·inference-optimisation·brief2mp4·unslop-ui. 발견 출처 15건 스캔 전부 완료(실제 리스크 0건) — v1.21에는 그중 6건만 등록하고 나머지 9건(ffmpeg-skill·material-design-3-ui·fable-cheap·skill-finder·stick-scene·컬렉션 4건)은 원문 검토 완료 상태로 다음 주 등록 검토(주의 문구 7건). 나머지 후보 26건(주요 소스 21건 + 부모 검증 5건)은 클론·스캔 과정의 실행 위험(execution-risk) 보안 검사 차단으로 스캔 미완료 — 사용자 확인 후 다음 주에 재개. ffmpeg-skill은 스캔 커버리지 0.0%라 미검사 파일 보장 없음. 미결: swarms 라이선스 여전히 없음(제외 유지, ★250). k-skill 3종 클론 방식 재스캔 완료 — 11-20과 점수·발견 완전 동일(45/38/45, 실제 리스크 0). GeekNews Weekly 384호 확인(스킬 후보 0건), 385호는 다음 주. upstar 지난주 1위 레포는 식별 불가로 종결. System-Prompt-Library는 라이선스 미명시로 참조 자료 등록 불가. react-native-guidelines 항목 이름·경로 정정(vercel-react-native-skills). k-skill 컬렉션 135개→134개(SKILL.md 실측)·★8,490. 2026-11-20 디자인팀·어도비 계열 6개 추가(v1.20, 사용자 선택 — MCP 서버 5개는 제외): logo-design(★7,373, recommended)·after-effects(aedev)·aftereffects-cli·aftereffects-declarative·adobe-products·adobe-plugin-development. 검증 게이트 통과(4개 전 항목 PASS, 2개 이름 표기 WARN만). SkillSpector: logo-design 100·after-effects 100·adobe-plugin-development 76은 HIGH 전수 원문 확인 결과 전부 과탐으로 실제 리스크 0, 나머지 3개 0점. after-effects(aedev)는 macOS 전용. 2026-11-20 k-skill 개별 스킬 3개 추가(v1.19, 사용자 승인): nts-tax-delinquency·biz-health-check(business)·korean-law-search(legal — 한국 법령 검색 갭 해소). 셋 다 검증 게이트 주의 후 후보 가능·SkillSpector 38점(HIGH 2건 스텁 기인, 실제 리스크 0). 스캔은 클론 실패로 API+raw 27파일 기준 — 월요일 갱신 때 클론 방식 재확인 예정. 2026-11-20 skills.rest 사전 테스트로 검증한 3개 추가(v1.18): prowler·prowler-compliance(prowler-cloud/prowler, Apache-2.0, 검증 전 항목 PASS·SkillSpector 0점 — 단 skills.rest 설명과 달리 클라우드 스캔 사용법이 아닌 Prowler 개발용), nts-business-registration(NomaDamas/k-skill 개별 스킬 첫 등재, MIT, 스텁+프록시 주의, SkillSpector 38점 HIGH 2건은 스텁 구조 기인). naver-shopping-search는 레포에 폴더가 없어 제외. 2026-11-16 주간 갱신(v1.17): 신규 26개. mcpcheck 경유 19개 스타 수 GitHub API로 재확인 완료(xcstrings-localize 2·asc-localize-metadata 1138 채움, srt-translate 0이 실제 값). azure 3종 GitHub Copilot 호환 확정(미확정 문구 제거). swarms 라이선스 여전히 없음(제외 유지). ainiee-translate·translate-docs는 AGPL-3.0. GeekNews 11-09~15 구간은 RSS·Weekly 커버 불가로 미확인. upstar 주간 1위 레포 이름 추출 누락(미확인). GitHub Search topic:agent-skills 신규 2,004건 중 GitHub-Copilot-app 스팸 클러스터 22개 이상 오염.",
   "sources": [
    "anthropics/skills (198,999 stars)",
    "obra/superpowers (311,864 stars)",
@@ -34,8 +34,8 @@
    "2026-11-16 주간 갱신: GoogleChrome/modern-web-guidance, addyosmani/agent-skills, browser-use/browser-use, aws/agent-toolkit-for-aws, janestreet/agent_skills, naver/design-to-ui, MengTo/Skills 신규(game-dev-character-model), anthropics/claude-plugins-official 신규(claude-for-manufacturing), anthropics/knowledge-work-plugins 기존 미등재(invoice-chase), gencraft-labs/skills, Marlon-Chaviano/first-commit, shadcn-ui/ui, upstar.dev #agent-skills, skills.sh, GitHub Search API(topic:agent-skills created:>2026-11-09), Hacker News Algolia, GeekNews RSS(11-09~15 구간 미확인), YouTube(짐코딩·Nate Herk·Tech With Tim·AICodeKing·Real Python)",
    "2026-11-23 주간 갱신: upstar.dev #agent-skills, skills.sh, skills.rest, GitHub Search API(topic:agent-skills created:>2026-11-16), Hacker News Algolia, GeekNews RSS+Weekly 384호, YouTube(짐코딩·Nate Herk·Tech With Tim·AICodeKing·Real Python)"
   ],
-  "verified_date": "2026-11-23",
-  "version": "1.21",
+  "verified_date": "2026-11-24",
+  "version": "1.22",
   "evaluation_note": "별점(5점 만점)은 어떤 출처에서도 확인되지 않아 지어내지 않음. evaluation은 스타 수(레포 전체 수치)·최근 활동·중복 추천·장단점으로 신뢰도 높음/보통/낮음과 총평(추천/보통/주의)을 매김. 25개 핵심 스킬에만 있음.",
   "stars_updated": "2026-11-23",
   "stars_note": "스타 수는 레포 전체 수치이며 개별 스킬 수치가 아님. 2026-11-16 GitHub API·레포 페이지 직접 확인.",
@@ -12794,6 +12794,106 @@
    "requires": [],
    "priority": "optional",
    "stars": 737,
+   "citations": 0,
+   "citation_sources": []
+  },
+  {
+   "id": "korean-jangbu-for",
+   "name": "korean-jangbu-for",
+   "category": "finance",
+   "purpose_ko": "한국 스타트업·1인 법인·프리랜서·개인사업자의 장부 자동화와 세무 자료 정리를 안내하는 스킬 — 원본 데이터 가져오기, 계정과목 태깅, 세무사 전달 CSV, 경영 리포트 생성을 다룬다. 업스트림은 kimlawtech/korean-jangbu-for. 스텁 구조라 SKILL.md만 복사하면 동작 안 하고 npx @nomadamas/k-skill CLI로 지침을 받아온다. CODEF 자격증명은 사용자 직접 발급 BYOK로, macOS Keychain 또는 0600 파일에만 보관하고 명시 승인 없이 외부 인증·금융 조회를 실행하지 않는다. 세무 판단은 세무사 검토가 필요하다. 라이선스 구분: 업스트림 Apache-2.0, k-skill 레포 자체는 MIT. 검증 게이트 '주의 후 후보 가능'(스텁). SkillSpector 56점 MEDIUM, HIGH 3건 전수 확인 결과 전부 과탐·설계상 패턴으로 실제 리스크 0건.",
+   "when_to_use": "스타트업·1인 법인·프리랜서 장부를 자동화하거나 세무사 전달 자료를 정리할 때 (경영/회계).",
+   "example": "\"이번 달 장부 정리해서 세무사 전달용 CSV 만들어줘\" → 원본 데이터 가져오기 → 계정과목 태깅 → CSV·리포트 생성 (CODEF 조회는 승인 후에만)",
+   "keywords": [
+    "장부",
+    "세무",
+    "CODEF",
+    "1인 법인",
+    "프리랜서",
+    "경영",
+    "회계"
+   ],
+   "source_repo": "NomaDamas/k-skill",
+   "skill_md_url": "https://github.com/NomaDamas/k-skill/blob/main/korean-jangbu-for/SKILL.md",
+   "install": "npx -y @nomadamas/k-skill@0 instruct korean-jangbu-for 로 지침을 받아온다. SKILL.md만 복사하면 동작 안 함(스텁 구조).",
+   "license": "Apache-2.0",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [
+    "Node.js 18+ (npx @nomadamas/k-skill CLI)",
+    "CODEF 자격증명 (사용자 직접 발급, BYOK) — 자동 수집 시에만",
+    "세무 판단은 세무사 검토 필요"
+   ],
+   "priority": "optional",
+   "stars": 8490,
+   "citations": 0,
+   "citation_sources": []
+  },
+  {
+   "id": "popbill",
+   "name": "popbill",
+   "category": "business",
+   "purpose_ko": "팝빌 전자세금계산서·전자명세서·현금영수증·문자·카카오톡·팩스·휴폐업/기업정보·계좌조회·홈택스 수집을 테스트/운영 환경에서 안전하게 호출하는 스킬. 유료 API(LinkID·SecretKey) 전제라 테스트/운영 환경 구분과 비용 전제를 확인해야 한다. 비밀값은 0600 secrets.env에만 두고 출력하지 않는다. 스텁 구조라 SKILL.md만 복사하면 동작 안 하고 CLI로 지침을 받아온다. 검증 게이트 '주의 후 후보 가능'(스텁). SkillSpector 65점 MEDIUM, HIGH 4건 전수 확인 결과 전부 과탐으로 실제 리스크 0건.",
+   "when_to_use": "전자세금계산서 발행·조회, 현금영수증, 휴폐업 조회 등 팝빌 API를 쓸 때 (경영/회계).",
+   "example": "\"이 거래처 세금계산서 발행해줘\" → 테스트 환경에서 먼저 확인 → 운영 환경 호출 (발행 전 사용자 승인 필수)",
+   "keywords": [
+    "팝빌",
+    "전자세금계산서",
+    "현금영수증",
+    "세무",
+    "경영",
+    "회계"
+   ],
+   "source_repo": "NomaDamas/k-skill",
+   "skill_md_url": "https://github.com/NomaDamas/k-skill/blob/main/popbill/SKILL.md",
+   "install": "npx -y @nomadamas/k-skill@0 instruct popbill 로 지침을 받아온다. SKILL.md만 복사하면 동작 안 함(스텁 구조).",
+   "license": "MIT",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [
+    "Node.js 18+ (npx @nomadamas/k-skill CLI)",
+    "팝빌 LinkID·SecretKey (유료 API)",
+    "테스트/운영 환경 구분 확인"
+   ],
+   "priority": "optional",
+   "stars": 8490,
+   "citations": 0,
+   "citation_sources": []
+  },
+  {
+   "id": "localdata-business-status",
+   "name": "localdata-business-status",
+   "category": "business",
+   "purpose_ko": "지방행정 인허가데이터(LOCALDATA)로 동네 사업장(식당·카페·숙박·약국·미용실·학원 등 인허가 업종 208종)의 영업/휴업/폐업 상태, 인허가일자(업력), 폐업일자, 업태, 주소를 조회하는 스킬. 상호+시군구로 검색하고 인증키 불필요(무인증 공개 파일 직접 다운로드, 프록시 없음). 사업자등록번호가 없어 상호 문자열 매칭이며 동일성은 사용자가 판단한다. biz-health-check가 이 스킬을 소스로 포괄하지만, 단독으로는 상호+시군구 검색과 208종 인허가라는 고유 범위가 있어 등록한다. 스텁 구조라 SKILL.md만 복사하면 동작 안 하고 CLI로 지침을 받아온다. 검증 게이트 '주의 후 후보 가능'(스텁). SkillSpector 38점 MEDIUM, HIGH 2건은 스텁 주석 오인으로 실제 리스크 0건.",
+   "when_to_use": "사업자번호를 몰라도 상호+시군구로 동네 가게 영업 상태를 확인할 때 (경영/회계·실사 보조).",
+   "example": "\"제주시 ○○호텔 지금 영업 중이야?\" → 시군구 파일 다운로드 → 영업상태·인허가일자·주소 확인",
+   "keywords": [
+    "인허가",
+    "영업상태",
+    "LOCALDATA",
+    "동네 가게",
+    "실사",
+    "경영"
+   ],
+   "source_repo": "NomaDamas/k-skill",
+   "skill_md_url": "https://github.com/NomaDamas/k-skill/blob/main/localdata-business-status/SKILL.md",
+   "install": "npx -y @nomadamas/k-skill@0 instruct localdata-business-status 로 지침을 받아온다. SKILL.md만 복사하면 동작 안 함(스텁 구조).",
+   "license": "MIT",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [
+    "Node.js 18+ (npx @nomadamas/k-skill CLI)",
+    "python3 (stdlib만 사용)",
+    "시군구 단위 지역 지정 필수"
+   ],
+   "priority": "optional",
+   "stars": 8490,
    "citations": 0,
    "citation_sources": []
   }
