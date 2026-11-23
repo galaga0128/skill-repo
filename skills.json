@@ -1,8 +1,8 @@
 {
  "meta": {
-  "notes": "2026-11-20 디자인팀·어도비 계열 6개 추가(v1.20, 사용자 선택 — MCP 서버 5개는 제외): logo-design(★7,373, recommended)·after-effects(aedev)·aftereffects-cli·aftereffects-declarative·adobe-products·adobe-plugin-development. 검증 게이트 통과(4개 전 항목 PASS, 2개 이름 표기 WARN만). SkillSpector: logo-design 100·after-effects 100·adobe-plugin-development 76은 HIGH 전수 원문 확인 결과 전부 과탐으로 실제 리스크 0, 나머지 3개 0점. after-effects(aedev)는 macOS 전용. 2026-11-20 k-skill 개별 스킬 3개 추가(v1.19, 사용자 승인): nts-tax-delinquency·biz-health-check(business)·korean-law-search(legal — 한국 법령 검색 갭 해소). 셋 다 검증 게이트 주의 후 후보 가능·SkillSpector 38점(HIGH 2건 스텁 기인, 실제 리스크 0). 스캔은 클론 실패로 API+raw 27파일 기준 — 월요일 갱신 때 클론 방식 재확인 예정. 2026-11-20 skills.rest 사전 테스트로 검증한 3개 추가(v1.18): prowler·prowler-compliance(prowler-cloud/prowler, Apache-2.0, 검증 전 항목 PASS·SkillSpector 0점 — 단 skills.rest 설명과 달리 클라우드 스캔 사용법이 아닌 Prowler 개발용), nts-business-registration(NomaDamas/k-skill 개별 스킬 첫 등재, MIT, 스텁+프록시 주의, SkillSpector 38점 HIGH 2건은 스텁 구조 기인). naver-shopping-search는 레포에 폴더가 없어 제외. 2026-11-16 주간 갱신(v1.17): 신규 26개. mcpcheck 경유 19개 스타 수 GitHub API로 재확인 완료(xcstrings-localize 2·asc-localize-metadata 1138 채움, srt-translate 0이 실제 값). azure 3종 GitHub Copilot 호환 확정(미확정 문구 제거). swarms 라이선스 여전히 없음(제외 유지). ainiee-translate·translate-docs는 AGPL-3.0. GeekNews 11-09~15 구간은 RSS·Weekly 커버 불가로 미확인. upstar 주간 1위 레포 이름 추출 누락(미확인). GitHub Search topic:agent-skills 신규 2,004건 중 GitHub-Copilot-app 스팸 클러스터 22개 이상 오염.",
+  "notes": "2026-11-23 주간 갱신(v1.21): 신규 6개 — rust-anything(upstar 주간 1위, ★7,993, recommended)·tarot(중국어 전용, life 카테고리 신설)·antialgorithm·inference-optimisation·brief2mp4·unslop-ui. 발견 출처 15건 스캔 전부 완료(실제 리스크 0건) — v1.21에는 그중 6건만 등록하고 나머지 9건(ffmpeg-skill·material-design-3-ui·fable-cheap·skill-finder·stick-scene·컬렉션 4건)은 원문 검토 완료 상태로 다음 주 등록 검토(주의 문구 7건). 나머지 후보 26건(주요 소스 21건 + 부모 검증 5건)은 클론·스캔 과정의 실행 위험(execution-risk) 보안 검사 차단으로 스캔 미완료 — 사용자 확인 후 다음 주에 재개. ffmpeg-skill은 스캔 커버리지 0.0%라 미검사 파일 보장 없음. 미결: swarms 라이선스 여전히 없음(제외 유지, ★250). k-skill 3종 클론 방식 재스캔 완료 — 11-20과 점수·발견 완전 동일(45/38/45, 실제 리스크 0). GeekNews Weekly 384호 확인(스킬 후보 0건), 385호는 다음 주. upstar 지난주 1위 레포는 식별 불가로 종결. System-Prompt-Library는 라이선스 미명시로 참조 자료 등록 불가. react-native-guidelines 항목 이름·경로 정정(vercel-react-native-skills). k-skill 컬렉션 135개→134개(SKILL.md 실측)·★8,490. 2026-11-20 디자인팀·어도비 계열 6개 추가(v1.20, 사용자 선택 — MCP 서버 5개는 제외): logo-design(★7,373, recommended)·after-effects(aedev)·aftereffects-cli·aftereffects-declarative·adobe-products·adobe-plugin-development. 검증 게이트 통과(4개 전 항목 PASS, 2개 이름 표기 WARN만). SkillSpector: logo-design 100·after-effects 100·adobe-plugin-development 76은 HIGH 전수 원문 확인 결과 전부 과탐으로 실제 리스크 0, 나머지 3개 0점. after-effects(aedev)는 macOS 전용. 2026-11-20 k-skill 개별 스킬 3개 추가(v1.19, 사용자 승인): nts-tax-delinquency·biz-health-check(business)·korean-law-search(legal — 한국 법령 검색 갭 해소). 셋 다 검증 게이트 주의 후 후보 가능·SkillSpector 38점(HIGH 2건 스텁 기인, 실제 리스크 0). 스캔은 클론 실패로 API+raw 27파일 기준 — 월요일 갱신 때 클론 방식 재확인 예정. 2026-11-20 skills.rest 사전 테스트로 검증한 3개 추가(v1.18): prowler·prowler-compliance(prowler-cloud/prowler, Apache-2.0, 검증 전 항목 PASS·SkillSpector 0점 — 단 skills.rest 설명과 달리 클라우드 스캔 사용법이 아닌 Prowler 개발용), nts-business-registration(NomaDamas/k-skill 개별 스킬 첫 등재, MIT, 스텁+프록시 주의, SkillSpector 38점 HIGH 2건은 스텁 구조 기인). naver-shopping-search는 레포에 폴더가 없어 제외. 2026-11-16 주간 갱신(v1.17): 신규 26개. mcpcheck 경유 19개 스타 수 GitHub API로 재확인 완료(xcstrings-localize 2·asc-localize-metadata 1138 채움, srt-translate 0이 실제 값). azure 3종 GitHub Copilot 호환 확정(미확정 문구 제거). swarms 라이선스 여전히 없음(제외 유지). ainiee-translate·translate-docs는 AGPL-3.0. GeekNews 11-09~15 구간은 RSS·Weekly 커버 불가로 미확인. upstar 주간 1위 레포 이름 추출 누락(미확인). GitHub Search topic:agent-skills 신규 2,004건 중 GitHub-Copilot-app 스팸 클러스터 22개 이상 오염.",
   "sources": [
-   "anthropics/skills (195,362 stars)",
+   "anthropics/skills (198,999 stars)",
    "obra/superpowers (311,864 stars)",
    "ComposioHQ/awesome-claude-skills (78,678 stars)",
    "composio-community/awesome-codex-skills (17,185 stars; ComposioHQ/awesome-codex-skills는 여기로 이동됨, 301 확인)",
@@ -31,12 +31,13 @@
    "me-workspace/orchestrator-operational-agent-skills (3 stars, MIT, 25 skills; business/hr 3종 출처)",
    "발견 출처(2026-11-04 추가): HN Algolia API, GeekNews RSS+Weekly, upstar.dev #agent-skills, skills.sh, 유튜브(짐코딩·Nate Herk·Tech With Tim·AICodeKing·Real Python), GitHub 주간 Top 30(upstar 주간 랭킹 + Search API 신규 레포)",
    "2026-11-09 주간 갱신: upstar.dev #agent-skills, skills.sh, GitHub Search API(topic:agent-skills created:>2026-11-02), Hacker News Algolia, GeekNews RSS, YouTube(짐코딩·Nate Herk·Tech With Tim·AICodeKing·Real Python·Hyperautomation Labs)",
-   "2026-11-16 주간 갱신: GoogleChrome/modern-web-guidance, addyosmani/agent-skills, browser-use/browser-use, aws/agent-toolkit-for-aws, janestreet/agent_skills, naver/design-to-ui, MengTo/Skills 신규(game-dev-character-model), anthropics/claude-plugins-official 신규(claude-for-manufacturing), anthropics/knowledge-work-plugins 기존 미등재(invoice-chase), gencraft-labs/skills, Marlon-Chaviano/first-commit, shadcn-ui/ui, upstar.dev #agent-skills, skills.sh, GitHub Search API(topic:agent-skills created:>2026-11-09), Hacker News Algolia, GeekNews RSS(11-09~15 구간 미확인), YouTube(짐코딩·Nate Herk·Tech With Tim·AICodeKing·Real Python)"
+   "2026-11-16 주간 갱신: GoogleChrome/modern-web-guidance, addyosmani/agent-skills, browser-use/browser-use, aws/agent-toolkit-for-aws, janestreet/agent_skills, naver/design-to-ui, MengTo/Skills 신규(game-dev-character-model), anthropics/claude-plugins-official 신규(claude-for-manufacturing), anthropics/knowledge-work-plugins 기존 미등재(invoice-chase), gencraft-labs/skills, Marlon-Chaviano/first-commit, shadcn-ui/ui, upstar.dev #agent-skills, skills.sh, GitHub Search API(topic:agent-skills created:>2026-11-09), Hacker News Algolia, GeekNews RSS(11-09~15 구간 미확인), YouTube(짐코딩·Nate Herk·Tech With Tim·AICodeKing·Real Python)",
+   "2026-11-23 주간 갱신: upstar.dev #agent-skills, skills.sh, skills.rest, GitHub Search API(topic:agent-skills created:>2026-11-16), Hacker News Algolia, GeekNews RSS+Weekly 384호, YouTube(짐코딩·Nate Herk·Tech With Tim·AICodeKing·Real Python)"
   ],
-  "verified_date": "2026-11-20",
-  "version": "1.20",
+  "verified_date": "2026-11-23",
+  "version": "1.21",
   "evaluation_note": "별점(5점 만점)은 어떤 출처에서도 확인되지 않아 지어내지 않음. evaluation은 스타 수(레포 전체 수치)·최근 활동·중복 추천·장단점으로 신뢰도 높음/보통/낮음과 총평(추천/보통/주의)을 매김. 25개 핵심 스킬에만 있음.",
-  "stars_updated": "2026-11-16",
+  "stars_updated": "2026-11-23",
   "stars_note": "스타 수는 레포 전체 수치이며 개별 스킬 수치가 아님. 2026-11-16 GitHub API·레포 페이지 직접 확인.",
   "citations_updated": "2026-11-09",
   "citations_note": "citations는 우리 DB가 수집한 출처에서 해당 스킬을 언급·추천한 외부 출처 수(출처당 1회, 자신의 홈 레포 제외, 전 세계 인용 횟수 아님)."
@@ -654,7 +655,7 @@
    "source_repo": "anthropics/skills",
    "when_to_use": "반복 업무를 재사용 가능한 스킬로 만들 때",
    "evaluation": {
-    "stars": 187112,
+    "stars": 198999,
     "stars_note": "레포 전체 수치",
     "last_activity": "레포 마지막 커밋 2026-10-09",
     "recommendation_count": "8곳 이상",
@@ -663,7 +664,7 @@
     "pros": "공식 스킬 작성 출발점. 실측 106줄 SKILL.md 약 1분 15초 생성",
     "cons": "실측 생성 스킬에 요일 오류 있었음. 뼈대만 써줌"
    },
-   "stars": 195362,
+   "stars": 198999,
    "citations": 10,
    "citation_sources": [
     "Promptslove",
@@ -887,7 +888,7 @@
    "source_repo": "anthropics/skills",
    "when_to_use": "만든 웹앱을 직접 열어 테스트하고 싶을 때",
    "evaluation": {
-    "stars": 187112,
+    "stars": 198999,
     "stars_note": "레포 전체 수치",
     "last_activity": "2026-09",
     "recommendation_count": "9곳 이상",
@@ -896,7 +897,7 @@
     "pros": "실측에서 모바일 찌그러짐·명암비 등 잡아내고 3회 수정 루프",
     "cons": "로컬 실행 앱 전용, Playwright·로컬 서버 전제"
    },
-   "stars": 195362,
+   "stars": 198999,
    "citations": 8,
    "citation_sources": [
     "Dupple",
@@ -1020,7 +1021,7 @@
    "source_repo": "anthropics/skills",
    "when_to_use": "편집 가능한 Word 문서가 필요할 때",
    "evaluation": {
-    "stars": 187112,
+    "stars": 198999,
     "stars_note": "레포 전체 수치",
     "last_activity": "2026-07-17",
     "recommendation_count": "묶음 기준 많음",
@@ -1029,7 +1030,7 @@
     "pros": "실제 .docx 생성·편집, 변경추적·주석까지",
     "cons": "Proprietary, source-available — 오픈소스 아님"
    },
-   "stars": 195362,
+   "stars": 198999,
    "citations": 5,
    "citation_sources": [
     "Dupple",
@@ -1063,7 +1064,7 @@
    "source_repo": "anthropics/skills",
    "when_to_use": "PDF 읽기·만들기·스캔 OCR·표 추출",
    "evaluation": {
-    "stars": 187112,
+    "stars": 198999,
     "stars_note": "레포 전체 수치",
     "last_activity": "2026-02-06",
     "recommendation_count": "묶음 기준 많음",
@@ -1072,7 +1073,7 @@
     "pros": "추출·병합·OCR까지 포괄, 단순 문서 4종 중 가장 빠름",
     "cons": "Proprietary. 스킬별 업데이트가 가장 오래됨"
    },
-   "stars": 195362,
+   "stars": 198999,
    "citations": 3,
    "citation_sources": [
     "Dupple",
@@ -1105,7 +1106,7 @@
    "source_repo": "anthropics/skills",
    "when_to_use": "편집 가능한 PPT 덱이 필요할 때",
    "evaluation": {
-    "stars": 187112,
+    "stars": 198999,
     "stars_note": "레포 전체 수치",
     "last_activity": "2026-07-17",
     "recommendation_count": "묶음 기준 많음",
@@ -1114,7 +1115,7 @@
     "pros": "덱 생성·편집·템플릿, 설치 수 248.2K로 4종 중 1위",
     "cons": "Proprietary, source-available"
    },
-   "stars": 195362,
+   "stars": 198999,
    "citations": 3,
    "citation_sources": [
     "Dupple",
@@ -1147,7 +1148,7 @@
    "source_repo": "anthropics/skills",
    "when_to_use": "수식 포함 재무 모델, 엑셀 정리",
    "evaluation": {
-    "stars": 187112,
+    "stars": 198999,
     "stars_note": "레포 전체 수치",
     "last_activity": "2026-07-17",
     "recommendation_count": "묶음 기준 많음 + Walma 단독 극찬",
@@ -1156,7 +1157,7 @@
     "pros": "수식·서식·차트·피벗, 값 하드코딩 금지 원칙",
     "cons": "Proprietary. openpyxl 수식 캐시값 안 써서 재계산 필요"
    },
-   "stars": 195362,
+   "stars": 198999,
    "citations": 3,
    "citation_sources": [
     "Dupple",
@@ -1188,7 +1189,7 @@
    "skill_md_url": "https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md",
    "source_repo": "anthropics/skills",
    "when_to_use": "긴 문서, 교재, 기획서 같이 쓸 때",
-   "stars": 195362,
+   "stars": 198999,
    "citations": 0,
    "citation_sources": []
   },
@@ -1218,7 +1219,7 @@
    "source_repo": "anthropics/skills",
    "when_to_use": "랜딩페이지, 대시보드 등 AI 티 안 나는 UI를 만들 때",
    "evaluation": {
-    "stars": 187112,
+    "stars": 198999,
     "stars_note": "레포 전체 수치 (anthropics/skills)",
     "last_activity": "2026-09-03",
     "recommendation_count": "7곳 이상",
@@ -1227,7 +1228,7 @@
     "pros": "AI 템플릿 look을 가장 확실히 제거. 설치 수 1.1M으로 레포 내 1위",
     "cons": "직접 호출해야 하는 경우 있음. 느리고 비쌈"
    },
-   "stars": 195362,
+   "stars": 198999,
    "citations": 8,
    "citation_sources": [
     "Dupple",
@@ -1388,7 +1389,7 @@
    "skill_md_url": "https://github.com/anthropics/skills/blob/main/skills/web-artifacts-builder/SKILL.md",
    "source_repo": "anthropics/skills",
    "when_to_use": "인터랙티브 웹 페이지, 대시보드, 미리보기 만들 때",
-   "stars": 195362,
+   "stars": 198999,
    "citations": 0,
    "citation_sources": []
   },
@@ -1588,7 +1589,7 @@
    "source_repo": "anthropics/skills",
    "when_to_use": "내부 API용 MCP 서버 만들 때",
    "evaluation": {
-    "stars": 187112,
+    "stars": 198999,
     "stars_note": "레포 전체 수치",
     "last_activity": "마지막 푸시 2026-09-29",
     "recommendation_count": "7곳 이상",
@@ -1597,7 +1598,7 @@
     "pros": "MCP 서버 흔한 실패 모드를 알고 검증 단계를 갖춘 공식 레시피",
     "cons": "기본값 stdio라 원격 배포 시 명시 필요"
    },
-   "stars": 195362,
+   "stars": 198999,
    "citations": 7,
    "citation_sources": [
     "Promptslove",
@@ -1707,7 +1708,7 @@
    "skill_md_url": "https://github.com/anthropics/skills/blob/main/skills/claude-api/SKILL.md",
    "source_repo": "anthropics/skills",
    "when_to_use": "Claude API로 구현할 때 최신 스펙 확인",
-   "stars": 195362,
+   "stars": 198999,
    "citations": 0,
    "citation_sources": []
   },
@@ -1735,7 +1736,7 @@
    "skill_md_url": "https://github.com/anthropics/skills/blob/main/skills/theme-factory/SKILL.md",
    "source_repo": "anthropics/skills",
    "when_to_use": "덱/문서/랜딩 테마를 빠르게 정할 때",
-   "stars": 195362,
+   "stars": 198999,
    "citations": 0,
    "citation_sources": []
   },
@@ -3466,7 +3467,7 @@
   },
   {
    "id": "react-native-guidelines",
-   "name": "react-native-guidelines",
+   "name": "vercel-react-native-skills",
    "category": "mobile",
    "purpose_ko": "React Native/Expo 성능 최적화·아키텍처·플랫폼별 패턴 16개 규칙",
    "when_to_use": "RN 앱 애니메이션을 최적화할 때",
@@ -3479,8 +3480,8 @@
     "mobile"
    ],
    "source_repo": "vercel-labs/agent-skills",
-   "skill_md_url": "https://github.com/vercel-labs/agent-skills",
-   "install": "npx skills add vercel-labs/agent-skills/react-native-guidelines",
+   "skill_md_url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/react-native-skills/SKILL.md",
+   "install": "npx skills add vercel-labs/agent-skills/react-native-skills",
    "license": "MIT",
    "compatible": [
     "Claude Code",
@@ -3491,7 +3492,7 @@
     "RN/Expo 프로젝트"
    ],
    "priority": "recommended",
-   "stars": 33491,
+   "stars": 34749,
    "citations": 0,
    "citation_sources": []
   },
@@ -4341,7 +4342,7 @@
     "Vercel 프로젝트"
    ],
    "priority": "optional",
-   "stars": 33491,
+   "stars": 34749,
    "citations": 0,
    "citation_sources": []
   },
@@ -4370,7 +4371,7 @@
     "React 프로젝트"
    ],
    "priority": "recommended",
-   "stars": 33491,
+   "stars": 34749,
    "citations": 0,
    "citation_sources": []
   },
@@ -4398,7 +4399,7 @@
    ],
    "requires": [],
    "priority": "recommended",
-   "stars": 33491,
+   "stars": 34749,
    "citations": 0,
    "citation_sources": []
   },
@@ -4425,7 +4426,7 @@
    ],
    "requires": [],
    "priority": "recommended",
-   "stars": 33491,
+   "stars": 34749,
    "citations": 0,
    "citation_sources": []
   },
@@ -4454,7 +4455,7 @@
     "React 19+·대응 브라우저"
    ],
    "priority": "optional",
-   "stars": 33491,
+   "stars": 34749,
    "citations": 0,
    "citation_sources": []
   },
@@ -4483,7 +4484,7 @@
     "React"
    ],
    "priority": "optional",
-   "stars": 33491,
+   "stars": 34749,
    "citations": 0,
    "citation_sources": []
   },
@@ -4512,7 +4513,7 @@
     "Vercel CLI"
    ],
    "priority": "recommended",
-   "stars": 33491,
+   "stars": 34749,
    "citations": 0,
    "citation_sources": []
   },
@@ -6148,7 +6149,7 @@
     "ffmpeg"
    ],
    "priority": "optional",
-   "stars": 7602,
+   "stars": 8068,
    "citations": 0,
    "citation_sources": []
   },
@@ -7816,7 +7817,7 @@
    "id": "k-skill",
    "name": "k-skill",
    "category": "automation-meta",
-   "purpose_ko": "한국 실생활 스킬 모음집 135개(교통·부동산·법률·세무·금융·쇼핑·스포츠·생활 등)를 한 번에 묶은 컬렉션. 개별 SKILL.md는 스텁이고 실제 지침은 npx CLI(@nomadamas/k-skill)가 받아오므로 SKILL.md만 복사해서는 동작하지 않음. 59개 스킬이 저자 공개 프록시(k-skill-proxy) 경유 — 검색어(종목·주소·법령)가 프록시 서버에 보임, 자체 호스팅 시 API 키 필요. 예매·결제·제출 계열 41개는 일반 에이전트에서 조회 전용. Codex 지원은 README 주장 수준으로 실동작 미검증. PIPA(약관·방침 생성)·한국 법령 검색·세무 행정 조회 갭을 메우는 스킬 포함.",
+   "purpose_ko": "한국 실생활 스킬 모음집 134개(교통·부동산·법률·세무·금융·쇼핑·스포츠·생활 등)를 한 번에 묶은 컬렉션. 개별 SKILL.md는 스텁이고 실제 지침은 npx CLI(@nomadamas/k-skill)가 받아오므로 SKILL.md만 복사해서는 동작하지 않음. 59개 스킬이 저자 공개 프록시(k-skill-proxy) 경유 — 검색어(종목·주소·법령)가 프록시 서버에 보임, 자체 호스팅 시 API 키 필요. 예매·결제·제출 계열 41개는 일반 에이전트에서 조회 전용. Codex 지원은 README 주장 수준으로 실동작 미검증. PIPA(약관·방침 생성)·한국 법령 검색·세무 행정 조회 갭을 메우는 스킬 포함.",
    "when_to_use": "한국 공공·생활 서비스(KTX, 당근, 쿠팡, 홈택스, 법령, DART, 네이버 쇼핑 등)를 에이전트에 연결할 때. 개별 스킬은 이 모음집 안에서 골라 설치.",
    "example": "\"KTX 시간표 조회해줘\" → railway-timetable 스킬을 k-skill에서 설치해 사용. \"개인정보처리방침 만들어줘\" → korean-privacy-terms 스킬 사용.",
    "keywords": [
@@ -7847,7 +7848,7 @@
     "CLI 사용량 분석 수집됨 (KSKILL_ANALYTICS_DISABLED=1로 거부 가능)"
    ],
    "priority": "recommended",
-   "stars": 8276,
+   "stars": 8490,
    "citations": 0,
    "citation_sources": []
   },
@@ -7915,7 +7916,7 @@
    ],
    "skill_md_url": "https://github.com/MengTo/Skills/blob/main/agent-skills/media/digital-twin/SKILL.md",
    "source_repo": "MengTo/Skills",
-   "stars": 7602,
+   "stars": 8068,
    "when_to_use": "본인 얼굴·목소리로 발표 클립·아바타 영상을 만들 때",
    "citation_sources": []
   },
@@ -7946,7 +7947,7 @@
    ],
    "skill_md_url": "https://github.com/MengTo/Skills/blob/main/agent-skills/media/url-to-motion-design/SKILL.md",
    "source_repo": "MengTo/Skills",
-   "stars": 7602,
+   "stars": 8068,
    "when_to_use": "참고 영상의 모션·연출을 내 제품 필름으로 재현하고 싶을 때",
    "citation_sources": []
   },
@@ -7974,7 +7975,7 @@
    "requires": [],
    "skill_md_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/champion-kit",
    "source_repo": "anthropics/claude-plugins-official",
-   "stars": 47398,
+   "stars": 47985,
    "when_to_use": "회사·팀에 Claude Code 도입을 확산시키고 챔피언 활동을 할 때",
    "citation_sources": []
   },
@@ -11309,7 +11310,7 @@
    ],
    "skill_md_url": "https://github.com/MengTo/Skills/blob/main/agent-skills/game-development/game-dev-character-model/SKILL.md",
    "source_repo": "MengTo/Skills",
-   "stars": 7602,
+   "stars": 8068,
    "when_to_use": "게임·웹 장면용 실사 캐릭터 모델이 필요할 때, 생성한 캐릭터를 리깅·포즈시킬 때"
   },
   {
@@ -11341,7 +11342,7 @@
    "requires": [],
    "skill_md_url": "https://github.com/anthropics/claude-plugins-official/blob/main/plugins/claude-for-manufacturing/skills/morning-plant-pulse/SKILL.md",
    "source_repo": "anthropics/claude-plugins-official",
-   "stars": 47398,
+   "stars": 47985,
    "when_to_use": "제조 공장의 견적·품질·생산보고·소싱 업무를 할 때, RFQ부터 견적·CAPA까지 이어지는 작업을 할 때"
   },
   {
@@ -12302,7 +12303,7 @@
     "k-skill-proxy 경유: 조회 정보(사업자번호 등)가 저자 공개 프록시에 보임"
    ],
    "priority": "optional",
-   "stars": 8472,
+   "stars": 8490,
    "citations": 1,
    "citation_sources": [
     "skills.rest"
@@ -12339,7 +12340,7 @@
     "python3 (표준 라이브러리만 사용, 추가 의존성 없음)"
    ],
    "priority": "optional",
-   "stars": 8472,
+   "stars": 8490,
    "citations": 0,
    "citation_sources": []
   },
@@ -12374,7 +12375,7 @@
     "6개 소스 중 4개는 k-skill-proxy 경유: 조회 정보가 저자 공개 프록시에 보임"
    ],
    "priority": "optional",
-   "stars": 8472,
+   "stars": 8490,
    "citations": 0,
    "citation_sources": []
   },
@@ -12408,7 +12409,7 @@
     "k-skill-proxy 경유: 검색어가 저자 공개 프록시에 보임 (법제처 키는 서버 측 주입)"
    ],
    "priority": "optional",
-   "stars": 8472,
+   "stars": 8490,
    "citations": 0,
    "citation_sources": []
   },
@@ -12603,6 +12604,196 @@
    ],
    "priority": "optional",
    "stars": 17,
+   "citations": 0,
+   "citation_sources": []
+  },
+  {
+   "id": "rust-anything",
+   "name": "rust-anything",
+   "category": "dev-method",
+   "purpose_ko": "앱의 느린 부분을 Rust로 이관(포팅)하는 스킬. 행위 기록·벤치마크·섀도우 게이트로 안전하게 옮기고 검증한다. upstar #agent-skills 주간 1위(주간 +8k, 2026-11-16 생성).",
+   "when_to_use": "앱 성능 개선을 위해 핫스팟을 Rust로 이관할 때",
+   "example": "\"이미지 처리 부분을 Rust로 옮겨줘\" → 행위 기록→Rust 포팅→벤치마크→섀도우 게이트 검증",
+   "keywords": [
+    "Rust",
+    "포팅",
+    "성능",
+    "이관",
+    "벤치마크",
+    "rust"
+   ],
+   "source_repo": "erkamyaman/rust-anything",
+   "skill_md_url": "https://github.com/erkamyaman/rust-anything/blob/main/skills/rust-anything/SKILL.md",
+   "install": "npx skills add erkamyaman/rust-anything --skill rust-anything",
+   "license": "MIT",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [
+    "Rust 툴체인(cargo)"
+   ],
+   "priority": "recommended",
+   "stars": 7993,
+   "citations": 0,
+   "citation_sources": [],
+   "evaluation": {
+    "stars": 7993,
+    "stars_note": "레포 전체 수치",
+    "last_activity": "2026-11-16 생성, 주간 +8k",
+    "recommendation_count": "upstar #agent-skills 주간 1위",
+    "verdict": "추천",
+    "trust": "높음",
+    "pros": "앱 Rust 포팅을 행위 기록·벤치·섀도우 게이트로 안전하게 진행",
+    "cons": "신규 레포(2026-11-16 생성)로 장기 유지보수 미확인"
+   }
+  },
+  {
+   "id": "tarot",
+   "name": "tarot",
+   "category": "life",
+   "purpose_ko": "타로 리딩 스킬. 중국어 전용, SKILL.md가 얇음(1,544B). 업무 외 스킬용 life 카테고리 첫 항목(사용자 제안 2026-11-06).",
+   "when_to_use": "타로 리딩을 할 때",
+   "example": "\"오늘 운세 타로 봐줘\" → 스프레드 선택→카드 해석",
+   "keywords": [
+    "타로",
+    "운세",
+    "타로카드",
+    "tarot"
+   ],
+   "source_repo": "daman-ovo-0404/tarot-skill",
+   "skill_md_url": "https://github.com/daman-ovo-0404/tarot-skill/blob/main/SKILL.md",
+   "install": "레포의 SKILL.md 참조",
+   "license": "MIT",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [],
+   "priority": "optional",
+   "stars": 476,
+   "citations": 0,
+   "citation_sources": []
+  },
+  {
+   "id": "antialgorithm",
+   "name": "antialgorithm",
+   "category": "ui-design",
+   "purpose_ko": "창의 작업에서 평균적인 첫 선택(뻔한 해법)을 피하게 하는 스킬. 같은 저자의 codixel은 DB 등재済.",
+   "when_to_use": "디자인·카피·기획에서 뻔한 첫 안이 나올 때",
+   "example": "\"랜딩 히어로 3안 줘\" → 뻔한 첫 선택을 제외하고 대안 제시",
+   "keywords": [
+    "창의",
+    "아이디어",
+    "뻔한",
+    "대안",
+    "anti-algorithm"
+   ],
+   "source_repo": "mankidev/antialgorithm",
+   "skill_md_url": "https://github.com/mankidev/antialgorithm/blob/main/SKILL.md",
+   "install": "레포의 SKILL.md 참조",
+   "license": "MIT",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [],
+   "priority": "optional",
+   "stars": 707,
+   "citations": 0,
+   "citation_sources": []
+  },
+  {
+   "id": "inference-optimisation",
+   "name": "inference-optimisation",
+   "category": "ai-ml",
+   "purpose_ko": "로컬 LLM 서빙 속도 최적화 스킬. 디코드·추측 디코딩·KV 캐시 등을 힐클라이밍 방식으로 개선하고 bench.py로 로컬 서버에 벤치한다. SkillSpector 100점이나 HIGH 2건은 로컬 서버(127.0.0.1) 벤치 호출 기인 과탐으로 실제 리스크 0건.",
+   "when_to_use": "로컬 LLM 서빙 속도를 측정·개선할 때",
+   "example": "\"이 로컬 모델 서빙 속도를 올려줘\" → 벤치→추측 디코딩·KV 설정 조정→재벤치",
+   "keywords": [
+    "LLM",
+    "추론",
+    "서빙",
+    "속도",
+    "벤치마크",
+    "KV 캐시",
+    "추측 디코딩"
+   ],
+   "source_repo": "sybil-solutions/inference-optimisation-skill",
+   "skill_md_url": "https://github.com/sybil-solutions/inference-optimisation-skill/blob/main/skills/inference-optimisation/SKILL.md",
+   "install": "레포의 skills/inference-optimisation/SKILL.md 참조 (bench.py 포함)",
+   "license": "MIT",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [
+    "로컬 LLM 서버(OpenAI 호환 /v1 API)"
+   ],
+   "priority": "optional",
+   "stars": 1960,
+   "citations": 0,
+   "citation_sources": []
+  },
+  {
+   "id": "brief2mp4",
+   "name": "brief2mp4",
+   "category": "video-audio",
+   "purpose_ko": "영상 브리프(기획서)를 받아 검수된 final.mp4를 만드는 스킬. 3D 팩·편집 팩은 선택 설치, 음악 다운로드(용량 상한 있음)·렌더 스크립트 포함. SkillSpector 100점(CRITICAL 1·HIGH 18)이나 원문 확인 결과 렌더·설치용 subprocess 호출, 문서 문구, 스캐너 파서 한계 기인 과탐으로 실제 리스크 0건으로 판정(핵심 경로 9건 직접 확인, 나머지 동일 패턴).",
+   "when_to_use": "영상 기획서를 실제 영상으로 만들 때",
+   "example": "\"이 브리프대로 30초 광고 영상 만들어줘\" → 브리프 검증→렌더→final.mp4 검수",
+   "keywords": [
+    "영상",
+    "브리프",
+    "렌더",
+    "mp4",
+    "비디오",
+    "검수"
+   ],
+   "source_repo": "qualixar/brief2mp4",
+   "skill_md_url": "https://github.com/qualixar/brief2mp4/blob/main/plugin/skills/brief2mp4/SKILL.md",
+   "install": "레포의 plugin/skills/brief2mp4/SKILL.md 참조 — 플러그인 형태로 설치 (3D 팩·편집 팩은 선택 설치, 설치 스크립트 포함)",
+   "license": "MIT",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [
+    "ffmpeg",
+    "Node.js 22+ (렌더)",
+    "Blender (3D 팩 선택 시)"
+   ],
+   "priority": "optional",
+   "stars": 57,
+   "citations": 0,
+   "citation_sources": []
+  },
+  {
+   "id": "unslop-ui",
+   "name": "unslop-ui",
+   "category": "ui-design",
+   "purpose_ko": "UI 카피에서 AI 티 나는 표현(부사 남발·과장·진부한 문구)을 제거하는 스킬. 프롬프트 인젝션 방어 문구를 스캐너가 공격으로 오인한 사례 있음(SkillSpector 53점, HIGH 2건 과탐으로 실제 리스크 0건).",
+   "when_to_use": "UI 문구에서 AI스러운 표현을 다듬을 때",
+   "example": "\"이 랜딩 문구 AI 티를 빼줘\" → U 규칙으로 카피 진단→다듬기",
+   "keywords": [
+    "UI",
+    "카피",
+    "문구",
+    "AI 티",
+    "슬롭",
+    "unslop"
+   ],
+   "source_repo": "felipebasurto/unslop-ui",
+   "skill_md_url": "https://github.com/felipebasurto/unslop-ui/blob/main/skills/unslop-ui/SKILL.md",
+   "install": "레포의 skills/unslop-ui/SKILL.md 참조",
+   "license": "MIT",
+   "compatible": [
+    "Claude Code",
+    "Codex"
+   ],
+   "requires": [],
+   "priority": "optional",
+   "stars": 737,
    "citations": 0,
    "citation_sources": []
   }
